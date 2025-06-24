@@ -46,6 +46,7 @@ export const Project = () => {
         
         <button onClick={()=>allProject()} className=' p-1 border-[#854CE6] hover:text-yellow-500' >ALL</button>
         <button onClick={()=>filterProject("web")}  className='border-l p-1 border-[#854CE6] hover:text-yellow-500'>WEB APP'S</button>
+     <button onClick={()=>filterProject("AI app")}  className='border-l p-1 border-[#854CE6] hover:text-yellow-500'>AI & AUTAMATED APP'S</button>
         <button onClick={()=>filterProject("blockchain app")} className='border-l p-1 border-[#854CE6] hover:text-yellow-500'>BLOCKCHAIN APP'S</button>
       </div>
       <div className=" absolute top-[13.5rem] left-1 sm:left:24 md:top-52 md:left-96  transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
