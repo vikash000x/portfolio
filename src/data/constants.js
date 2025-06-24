@@ -19,7 +19,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/vikash000x",
     resume:
-      "https://drive.google.com/file/d/1EzKdD3Nt8YvcDnCYQfMaGxwiOWGHq5K6/view?usp=sharing",
+      "https://drive.google.com/file/d/1sfayESheYDH7yloPSZMAk6dIiyv4ns5d/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/vikash-sinha-215000259/",
     twitter: "https://x.com/vikash_sinha_",
     insta: "https://www.instagram.com/niharchandra007?igsh=Znpnc29oa2FvZHZx",
@@ -127,6 +127,48 @@ export const Bio = {
         
       ],
     },
+      {
+  title: "LLM & Automation",
+  skills: [
+    {
+      name: "LangChain",
+      image: "https://raw.githubusercontent.com/langchain-ai/langchain/main/docs/static/img/logo.svg",
+    },
+    {
+      name: "Vector Databases",
+      image: "https://upload.wikimedia.org/wikipedia/commons/4/46/Database-icon.png", // generic DB icon
+    },
+    {
+      name: "Pinecone",
+      image: "https://avatars.githubusercontent.com/u/78085539?s=200&v=4",
+    },
+    {
+      name: "Chroma DB",
+      image: "https://docs.trychroma.com/img/chroma-logo-dark.svg",
+    },
+    {
+      name: "RAG (Retrieval-Augmented Generation)",
+      image: "https://cdn-icons-png.flaticon.com/512/3739/3739779.png", // abstract concept icon
+    },
+    {
+      name: "LLM Agents",
+      image: "https://avatars.githubusercontent.com/u/154170098?s=200&v=4", // Autogen-style icon
+    },
+    {
+      name: "Prompt Engineering",
+      image: "https://cdn-icons-png.flaticon.com/512/1082/1082810.png",
+    },
+    {
+      name: "OpenAI API",
+      image: "https://cdn.worldvectorlogo.com/logos/openai-icon-2021.svg",
+    },
+    {
+      name: "Gemini",
+      image: "https://avatars.githubusercontent.com/u/125004865?s=200&v=4", // Google GenAI icon
+    },
+  ],
+},
+
     {
       title: "Others",
       skills: [
@@ -390,6 +432,53 @@ export const Bio = {
       github: "https://github.com/vikash000x/BrightFund",
       webapp: "https://bright-fund.vercel.app/",
     },
+      {
+  id: 7,
+  title: "AI Note App",
+  date: "Apr 2024 - Jun 2024",
+  bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+  description: "An AI-powered note-taking app that helps users organize, summarize, and manage their notes efficiently. Integrates with GPT for smart suggestions and search.",
+  image: imagenote,
+  tags: ["TypeScript", "Next.js", "OpenAI API", "Pinecone", "TailwindCSS", "clerk"],
+  category: "AI app",
+  github: "https://github.com/vikash000x/ai-note-app",
+  webapp: "https://ai-note-app-rosy.vercel.app/",
+},
+      {
+  id: 8,
+  title: "AIthelete",
+  date: "Apr 2024 - Jun 2024",
+  bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105 ",
+  description: "An AI-powered training agent that crafts personalized workout plans, delivers detailed feedback, and offers actionable recommendations. Built with LangChain and Next.js, AIthelete adapts to your fitness level using advanced AI for optimal progress.",
+  image: imageath, // Replace with your actual image import or path
+  tags: ["TypeScript", "Next.js", "LangChain", "OpenAI API", "TailwindCSS"],
+  category: "AI app",
+  github: "https://github.com/vikash000x/AI_athelete",
+  webapp: "https://ai-athelete.vercel.app/", // Replace with your deployed app URL if available
+},  {
+  id: 9,
+  title: "new_stAI_thon",
+  date: "Jun 2024 - Present",
+  bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105 ",
+  description: "An advanced analytics tool that leverages the Gemini GenAI model and SerpAPI to identify companies providing services or partnering with a specified client. Features automated web scraping, AI-powered data extraction, and persistent storage for efficient, structured insights.",
+  image: imagest, // Replace with your actual image import or path
+  tags: [
+    "Gemini GenAI",
+    "SerpAPI",
+    "MongoDB",
+    "Node.js",
+    "Express",
+    "Axios",
+    "Web Scraping",
+    "AI Analytics",
+    "Full Stack"
+  ],
+  category: "AI app",
+  github: "https://github.com/vikash000x/new_stAI_thon",
+  webapp: "https://new-staithon-frontend.onrender.com/", // Replace with your actual Render frontend URL
+  backend: "https://new-staithon-backend.onrender.com/",  // Add this if you want to expose backend URL as well
+  builtBy: "Vikash Sinha"
+}
     
   ];
   
