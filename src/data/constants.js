@@ -463,18 +463,15 @@ export const Bio = {
   title: "new_stAI_thon",
   date: "Jun 2024 - Present",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105 ",
-  description: "An advanced analytics tool that leverages the Gemini GenAI model and SerpAPI to identify companies providing services or partnering with a specified client. Features automated web scraping, AI-powered data extraction, and persistent storage for efficient, structured insights.",
+  description: "An advanced analytics tool that leverages the Gemini GenAI model and SerpAPI to identify companies providing services or partnering with a specified client. Features automated web scraping, AI-powered data extraction, and persistent storage for efficient insights.",
   image: imagest2, // Replace with your actual image import or path
   tags: [
     "Gemini GenAI",
     "SerpAPI",
     "MongoDB",
     "Node.js",
-    "Express",
-    "Axios",
-    "Web Scraping",
-    "AI Analytics",
-    "Full Stack"
+    "Web Scraping"
+    
   ],
   category: "AI app",
   github: "https://github.com/vikash000x/new_stAI_thon",
