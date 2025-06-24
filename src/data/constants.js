@@ -7,9 +7,9 @@ import image6 from "../Image/vercel-icon.png"
 import image7 from "../Image/git-icon.png"
 import image8 from "../Image/pp.png"
 import image9 from "../Image/talentf.png"
-import imagenote from "../Image/imagenote.png"
-import imagest from "../Image/imagest.png"
-import imageath from "../Image/imageath.png"
+import imagenote1 from "../Image/imagenote.png"
+import imagest2 from "../Image/imagest.png"
+import imageath3 from "../Image/imageath.png"
 
 export const Bio = {
     name: "Vikash Sinha",
@@ -441,7 +441,7 @@ export const Bio = {
   date: "Apr 2024 - Jun 2024",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
   description: "An AI-powered note-taking app that helps users organize, summarize, and manage their notes efficiently. Integrates with GPT for smart suggestions and search.",
-  image: imagenote,
+  image: imagenote1,
   tags: ["TypeScript", "Next.js", "OpenAI API", "Pinecone", "TailwindCSS", "clerk"],
   category: "AI app",
   github: "https://github.com/vikash000x/ai-note-app",
@@ -453,7 +453,7 @@ export const Bio = {
   date: "Apr 2024 - Jun 2024",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105 ",
   description: "An AI-powered training agent that crafts personalized workout plans, delivers detailed feedback, and offers actionable recommendations. Built with LangChain and Next.js, AIthelete adapts to your fitness level using advanced AI for optimal progress.",
-  image: imageath, // Replace with your actual image import or path
+  image: imageath3, // Replace with your actual image import or path
   tags: ["TypeScript", "Next.js", "LangChain", "OpenAI API", "TailwindCSS"],
   category: "AI app",
   github: "https://github.com/vikash000x/AI_athelete",
@@ -464,7 +464,7 @@ export const Bio = {
   date: "Jun 2024 - Present",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105 ",
   description: "An advanced analytics tool that leverages the Gemini GenAI model and SerpAPI to identify companies providing services or partnering with a specified client. Features automated web scraping, AI-powered data extraction, and persistent storage for efficient, structured insights.",
-  image: imagest, // Replace with your actual image import or path
+  image: imagest2, // Replace with your actual image import or path
   tags: [
     "Gemini GenAI",
     "SerpAPI",
@@ -478,9 +478,8 @@ export const Bio = {
   ],
   category: "AI app",
   github: "https://github.com/vikash000x/new_stAI_thon",
-  webapp: "https://new-staithon-frontend.onrender.com/", // Replace with your actual Render frontend URL
-  backend: "https://new-staithon-backend.onrender.com/",  // Add this if you want to expose backend URL as well
-  builtBy: "Vikash Sinha"
+  webapp: "https://new-staithon-frontend.onrender.com/"// Replace with your actual Render frontend URL  // Add this if you want to expose backend URL as well
+
 }
     
   ];
