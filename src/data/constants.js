@@ -7,6 +7,9 @@ import image6 from "../Image/vercel-icon.png"
 import image7 from "../Image/git-icon.png"
 import image8 from "../Image/pp.png"
 import image9 from "../Image/talentf.png"
+import imagenote from "../Image/imagenote.png"
+import imagest from "../Image/imagest.png"
+import imageath from "../Image/imageath.png"
 
 export const Bio = {
     name: "Vikash Sinha",
