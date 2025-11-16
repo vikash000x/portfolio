@@ -391,7 +391,7 @@ export const Bio = {
       {
   id: 2,
   title: "AI Stock Trading & Insights Platform",
-  date: "Oct 2025 ,
+  date: "Oct 2025" ,
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
   description:
     "AI-powered real-time stock market application built with Next.js, Shadcn, MongoDB, Better Auth, and Inngest. Track real-time stock prices, explore company insights, manage watchlists, and receive automated alerts powered by event-driven workflows and AI summaries.",
