@@ -77,31 +77,57 @@ export const Bio = {
         },
       ],
     },
+  {
+  title: "Backend",
+  skills: [
     {
-      title: "Backend",
-      skills: [
-        {
-          name: "Node Js",
-          image: "https://nodejs.org/static/images/logo.svg",
-        },
-        
-        {
-          name: "Mongo DB",
-          image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-        },
-        
-        {
-          name: "MySQL",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
-        
-        {
-          name: "Firebase",
-          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-        },
-      ],
+      name: "Node.js",
+      image: "https://nodejs.org/static/images/logo.svg",
     },
+    {
+      name: "Spring Boot",
+      image: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+    },
+    {
+      name: "Kafka",
+      image: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg",
+    },
+    {
+      name: "Inngest",
+      image: "https://avatars.githubusercontent.com/u/122227103?s=200&v=4",
+    },
+    {
+      name: "Prisma",
+      image: "https://raw.githubusercontent.com/prisma/presskit/master/Assets/Prisma-LightSymbol.png",
+    },
+    {
+      name: "Clerk",
+      image: "https://avatars.githubusercontent.com/u/105279441?s=200&v=4",
+    }
+  ]
+},
+{
+  title: "Database",
+  skills: [
+    {
+      name: "PostgreSQL",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+    },
+    {
+      name: "NeonDB",
+      image: "https://avatars.githubusercontent.com/u/108468352?s=200&v=4",
+    },
+    {
+      name: "MongoDB",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    },
+    {
+      name: "Supabase",
+      image: "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
+    }
+  ]
+}
+,
     {
       title: "Blockchain",
       skills: [
@@ -320,7 +346,7 @@ export const Bio = {
     {
       id: 0,
       title: "BEU - College Club Website",
-      date: "Dec 2024 - current",
+      date: "Dec 2024",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "A platform for students of Bihar Engineering University to explore and participate in college clubs, events, and activities, fostering collaboration and engagement. The website features a user-friendly interface, secure authentication, and real-time updates on club activities and events.",
@@ -337,8 +363,77 @@ export const Bio = {
       github: "https://github.com/vikash000x/BEU_Group_Prj",
       webapp: "https://beu-campus-connect.vercel.app/",
     },
+      {
+  id: 1,
+  title: "Teamflow – Project & Workspace Management Platform",
+  date: "Nov 2025",
+  bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+  description:
+    "A powerful workspace & project management platform with multi-workspace support, task assignment, analytics dashboard, real-time collaboration, webhook automation, and a modern UI/UX.",
+  image: image11, // Replace with your actual image import
+  tags: [
+    "React.js",
+  
+    "Redux Toolkit",
+    "Clerk Auth",
+    "Inngest",
+    
+    "Express",
+    "NeonDB",
+    "Prisma ORM",
+   =
+  ],
+  category: "web",
+  github: "https://github.com/vikash000x/workflow-management",
+  webapp: "https://workflow-management-hpsn.vercel.app/"
+}
+,
+      {
+  id: 2,
+  title: "AI Stock Trading & Insights Platform",
+  date: "Oct 2025 ,
+  bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+  description:
+    "AI-powered real-time stock market application built with Next.js, Shadcn, MongoDB, Better Auth, and Inngest. Track real-time stock prices, explore company insights, manage watchlists, and receive automated alerts powered by event-driven workflows and AI summaries.",
+  image: image12, // replace with your imported image
+  tags: [
+    "Next.js",
+     "Coderabbit",
+    "Shadcn/UI",
+    "Better Auth",
+    "Inngest",
+    "MongoDB",
+    "Finnhub API"
+  ],
+  category: "web",
+  github: "https://github.com/vikash000x/stock_trading_app",
+  webapp: "https://stock-trading-app-two.vercel.app/",
+},{
+  id: 3,
+  title: "SocialHop – Social Media Platform",
+  date: "2024",
+  bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+  description:
+    "A modern and fully responsive social media platform supporting posts, comments, media uploads, authentication, role-based access, and real-time interactions. Built with Next.js, Supabase, Clerk, and Prisma for a scalable and seamless experience.",
+  image: image13, // <-- replace with your image import
+  tags: [
+    "Next.js",
+    "React Query",
+    "Prisma",
+    "Supabase",
+    "Clerk",
+    "Cloudinary",
+    "Context API",
+    "Ant Design"
+  ],
+  category: "web",
+  github: "https://github.com/vikash000x/social-media",
+  webapp: "https://social-media-qtak6t59z-vikash-sinhas-projects.vercel.app/"
+}
+,
+
     {
-      id: 1,
+      id: 4,
       title: "TalentForge-AI",
       date: "september 2024 - december 2024",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
@@ -356,7 +451,7 @@ export const Bio = {
       webapp: "https://talent-forge-ai.vercel.app/",
     },
     {
-      id: 2,
+      id: 5,
       title: "Khaoo peeyo",
       date: "Jun 2023 - June 2023",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
@@ -373,7 +468,7 @@ export const Bio = {
       webapp: "https://khao-peeyo.vercel.app/",
     },
     {
-      id: 3,
+      id: 6,
       title: "job finder",
       date: "Apr 2023 - May 2023",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
@@ -392,7 +487,7 @@ export const Bio = {
       
     },
     {
-      id: 4,
+      id: 7,
       title: "Krypt Exchange",
       date: "july 2024 - august 2024",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
@@ -407,7 +502,7 @@ export const Bio = {
    
    
     {
-      id: 5,
+      id: 8,
       title: "PixelPort",
       date: "jan 2025 - feb 2025",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
@@ -423,7 +518,7 @@ export const Bio = {
     
     
     {
-      id: 6,
+      id: 9,
       title: "Bright-Fund",
       date: "jan 2025 - feb 2025",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
@@ -436,7 +531,7 @@ export const Bio = {
       webapp: "https://bright-fund.vercel.app/",
     },
       {
-  id: 7,
+  id: 10,
   title: "AI Note App",
   date: "Apr 2024 - Jun 2024",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
@@ -448,7 +543,7 @@ export const Bio = {
   webapp: "https://ai-note-app-rosy.vercel.app/",
 },
       {
-  id: 8,
+  id: 11,
   title: "AIthelete",
   date: "Apr 2024 - Jun 2024",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105 ",
@@ -459,7 +554,7 @@ export const Bio = {
   github: "https://github.com/vikash000x/AI_athelete",
   webapp: "https://ai-athelete.vercel.app/", // Replace with your deployed app URL if available
 },  {
-  id: 9,
+  id: 12,
   title: "new_stAI_thon",
   date: "Jun 2024 - Present",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-indigo-700/70 to-indigo-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105 ",
