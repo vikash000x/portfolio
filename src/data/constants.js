@@ -10,6 +10,9 @@ import image9 from "../Image/talentf.png"
 import imagenote1 from "../Image/imagenote.png"
 import imagest2 from "../Image/imagest.png"
 import imageath3 from "../Image/imageath.png"
+import image11 from "../Image/image11.png"
+import image12 from "../Image/image12.png"
+import image13 from "../Image/image13.png"
 
 export const Bio = {
     name: "Vikash Sinha",
@@ -379,14 +382,12 @@ export const Bio = {
     
     "Express",
     "NeonDB",
-    "Prisma ORM",
-   =
+    "Prisma ORM"
   ],
   category: "web",
   github: "https://github.com/vikash000x/workflow-management",
   webapp: "https://workflow-management-hpsn.vercel.app/"
-}
-,
+},
       {
   id: 2,
   title: "AI Stock Trading & Insights Platform",
@@ -428,8 +429,7 @@ export const Bio = {
   category: "web",
   github: "https://github.com/vikash000x/social-media",
   webapp: "https://social-media-qtak6t59z-vikash-sinhas-projects.vercel.app/"
-}
-,
+},
 
     {
       id: 4,
