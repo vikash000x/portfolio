@@ -126,8 +126,7 @@ export const Bio = {
       image: "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
     }
   ]
-}
-,
+},
     {
       title: "Blockchain",
       skills: [
