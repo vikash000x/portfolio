@@ -368,11 +368,11 @@ export const Bio = {
     },
       {
   id: 1,
-  title: "Teamflow – Project & Workspace Management Platform",
+  title: "Project Management Platform",
   date: "Nov 2025",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
   description:
-    "A powerful workspace & project management platform with multi-workspace support, task assignment, analytics dashboard, real-time collaboration, webhook automation, and a modern UI/UX.",
+    "A powerful workspace & project management platform with multi-workspace support, task assignment, analytics dashboard, real-time collaboration, webhook automation.",
   image: image11, // Replace with your actual image import
   tags: [
     "React.js",
@@ -391,31 +391,31 @@ export const Bio = {
 },
       {
   id: 2,
-  title: "AI Stock Trading & Insights Platform",
+  title: "AI Stock Trading Platform",
   date: "Oct 2025" ,
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
   description:
-    "AI-powered real-time stock market application built with Next.js, Shadcn, MongoDB, Better Auth, and Inngest. Track real-time stock prices, explore company insights, manage watchlists, and receive automated alerts powered by event-driven workflows and AI summaries.",
+    "AI-powered real-time stock market application. Track real-time stock prices, explore company insights, manage watchlists, and receive automated alerts, AI summaries.",
   image: image12, // replace with your imported image
   tags: [
     "Next.js",
      "Coderabbit",
-    "Shadcn/UI",
+    
     "Better Auth",
     "Inngest",
-    "MongoDB",
-    "Finnhub API"
+    "MongoDB"
+   
   ],
   category: "web",
   github: "https://github.com/vikash000x/stock_trading_app",
   webapp: "https://stock-trading-app-two.vercel.app/",
 },{
   id: 3,
-  title: "SocialHop – Social Media Platform",
+  title: "Social Media Platform",
   date: "2024",
   bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
   description:
-    "A modern and fully responsive social media platform supporting posts, comments, media uploads, authentication, role-based access, and real-time interactions. Built with Next.js, Supabase, Clerk, and Prisma for a scalable and seamless experience.",
+    "A modern and fully responsive social media platform supporting posts, comments, media uploads, authentication, role-based access, and real-time interactions.",
   image: image13, // <-- replace with your image import
   tags: [
     "Next.js",
