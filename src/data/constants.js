@@ -13,6 +13,7 @@ import imageath3 from "../Image/imageath.png"
 import image11 from "../Image/image11.png"
 import image12 from "../Image/image12.png"
 import image13 from "../Image/image13.png"
+import image14 from  "../Image/2025-11-25 21_21_46-tiny URL - Brave.png"
 
 export const Bio = {
     name: "Vikash Sinha",
@@ -431,25 +432,32 @@ export const Bio = {
   github: "https://github.com/vikash000x/social-media",
   webapp: "https://social-media-qtak6t59z-vikash-sinhas-projects.vercel.app/"
 },
+      {
+  id: 4,
+  title: "TinyURL",
+  date: "2025",
+  bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+  description:
+    "TinyURL is a full-stack application that allows users to shorten long URLs, manage them securely, and analyze click statistics",
+  image: image14, // <-- replace with your image import
+  tags: [
+    "React.js",
 
-    {
-      id: 4,
-      title: "TalentForge-AI",
-      date: "september 2024 - december 2024",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
-      description:
-        "An AI-powered platform that helps users enhance their skills, generate resume, cover-letter, and examine your skill based on specified skills in user description also give interactive chat view of current market scenerio and trending skills  for career opportunities. ",
-      image:image9,
-      tags: [
-        "React JS ",
-        "Tailwind",
-        "Redux",
-        "Gemini API"
-      ],
-      category: "web",
-      github: "https://github.com/vikash000x/TalentForge-AI",
-      webapp: "https://talent-forge-ai.vercel.app/",
-    },
+      "nodemailer",
+     
+    "Prisma",
+    "neondb",
+   
+    "express.js"
+    "Context API"
+    
+  ],
+  category: "web",
+  github: "https://github.com/vikash000x/tinyURL",
+  webapp: "https://tiny-url-ruddy.vercel.app/
+},
+
+
     {
       id: 5,
       title: "Khaoo peeyo",
@@ -572,7 +580,25 @@ export const Bio = {
   github: "https://github.com/vikash000x/new_stAI_thon",
   webapp: "https://new-staithon-frontend.onrender.com/"// Replace with your actual Render frontend URL  // Add this if you want to expose backend URL as well
 
-}
+},
+          {
+      id: 13,
+      title: "TalentForge-AI",
+      date: "september 2024 - december 2024",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      description:
+        "An AI-powered platform that helps users enhance their skills, generate resume, cover-letter, and examine your skill based on specified skills in user description also give interactive chat view of current market scenerio and trending skills  for career opportunities. ",
+      image:image9,
+      tags: [
+        "React JS ",
+        "Tailwind",
+        "Redux",
+        "Gemini API"
+      ],
+      category: "web",
+      github: "https://github.com/vikash000x/TalentForge-AI",
+      webapp: "https://talent-forge-ai.vercel.app/",
+    },
     
   ];
   
