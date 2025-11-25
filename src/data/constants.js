@@ -448,7 +448,7 @@ export const Bio = {
     "Prisma",
     "neondb",
    
-    "express.js"
+    "express.js",
     "Context API"
     
   ],
