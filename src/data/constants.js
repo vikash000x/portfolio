@@ -454,7 +454,7 @@ export const Bio = {
   ],
   category: "web",
   github: "https://github.com/vikash000x/tinyURL",
-  webapp: "https://tiny-url-ruddy.vercel.app/
+  webapp: "https://tiny-url-ruddy.vercel.app/"
 },
 
 
